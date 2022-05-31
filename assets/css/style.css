@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* body styles */
@@ -15,7 +16,7 @@ header {
     background-color: #39a6b2;
 }
 
-/* headers h1 style */
+/* style for Run Buddy in header */
 header h1 {
     font: bold 36px;
     color: #fce138;
@@ -23,25 +24,52 @@ header h1 {
     display: inline;
 }
 
-/* headers reference element style */
+/* Color text in header */
 header a {
     text-decoration: none;
     color: #fce138;
 }
 
-/* headers nav styles */
+/* positioning for links in header list */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* headers navs list styles */
+/* put all links in header in the same line */
 header nav ul li {
     display: inline;
 }
 
-/* headers navs lists reference elements styles */
+/* styles for the links in header list */
 header nav ul li a {
     margin: 0 30px;
     font: 22px lighter;
+}
+
+/* footer style */
+footer {
+    background: #fce138;
+    padding: 40px 35px;
+    width: 100%;
+}
+
+/* style for made with love in footer */
+footer h2 {
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+
+/* postioning for privacy and copyright text in footer*/
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+
+/* color of the privacy and copyright text in footer */
+footer a {
+    color: #024e76;
 }
