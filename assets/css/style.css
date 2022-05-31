@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* body styles */
 body {
     color: #39a6b2;
@@ -15,6 +20,7 @@ header h1 {
     font: bold 36px;
     color: #fce138;
     margin: 0;
+    display: inline;
 }
 
 /* headers reference element style */
@@ -23,11 +29,19 @@ header a {
     color: #fce138;
 }
 
+/* headers nav styles */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
+/* headers navs list styles */
 header nav ul li {
     display: inline;
+}
+
+/* headers navs lists reference elements styles */
+header nav ul li a {
+    margin: 0 30px;
+    font: 22px lighter;
 }
