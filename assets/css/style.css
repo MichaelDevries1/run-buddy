@@ -74,22 +74,40 @@ footer a {
     color: #024e76;
 }
 
-/* basic style for hero banner */
+/* basic style for sections */
 section {
     padding: 60px;
 }
 
+/* basic style for hero banner */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
     height: 600px;
+    position: relative;
 }
 
+/* style for the hero banners form */
 .hero-form {
     color: #024e76;
     background-color: #fce138;
-    float: right;
+    position: absolute;
     padding: 20px;
     width: 500px;
+    border: #024e76 solid 3px;
+    bottom: 120px;
+    right: 140px;
 }
+
+/* modify the spacing of the h3 element */
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* modify the spacing around the form itself in the hero banner */
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+
