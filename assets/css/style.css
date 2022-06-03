@@ -4,12 +4,18 @@
     box-sizing: border-box;
 }
 
+/* basic style for sections */
+section {
+    padding: 60px;
+}
+
 /* body styles */
 body {
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
 
+/* START OF HEADER STYLES */
 /* header styles */
 header {
     padding: 20px 35px;
@@ -46,7 +52,9 @@ header nav ul li a {
     margin: 0 30px;
     font: 22px lighter;
 }
+/* END OF HEADER STYLES
 
+/* START OF FOOTER STYLES */
 /* footer style */
 footer {
     background: #fce138;
@@ -73,12 +81,9 @@ footer div {
 footer a {
     color: #024e76;
 }
+/* END FOOTER STYLES */
 
-/* basic style for sections */
-section {
-    padding: 60px;
-}
-
+/* START HERO STYLES */
 /* basic style for hero banner */
 .hero {
     background-image: url("../images/hero-bg.jpg");
@@ -111,6 +116,7 @@ section {
     margin: 5px 0 15px 0;
 }
 
+/* allign the input fields and fill them out */
 .form-input {
     border: 1px;
     display: block;
@@ -121,12 +127,12 @@ section {
     margin-bottom: 15px;
 }
 
-
+/* spread out the radial buttons for previous trainers option */
 .prev-trainer {
     margin: 0 5px;
 }
 
-
+/* style for the button */
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -134,3 +140,4 @@ section {
     border: none;
     font: 16px bold;
 }
+/* END OF HERO STYLES */
