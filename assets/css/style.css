@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 /* basic style for sections */
@@ -18,22 +18,22 @@ body {
 /* START OF HEADER STYLES */
 /* header styles */
 header {
-    padding: 20px 35px;
     background-color: #39a6b2;
+    padding: 20px 35px;
 }
 
 /* style for Run Buddy in header */
 header h1 {
-    font: bold 36px;
     color: #fce138;
-    margin: 0;
     display: inline;
+    font: bold 36px;
+    margin: 0;
 }
 
 /* Color text in header */
 header a {
-    text-decoration: none;
     color: #fce138;
+    text-decoration: none;
 }
 
 /* positioning for links in header list */
@@ -49,8 +49,8 @@ header nav ul li {
 
 /* styles for the links in header list */
 header nav ul li a {
-    margin: 0 30px;
     font: 22px lighter;
+    margin: 0 30px;
 }
 /* END OF HEADER STYLES
 
@@ -64,8 +64,8 @@ footer {
 
 /* style for made with love in footer */
 footer h2 {
-    display: inline;
     color: #024e76;
+    display: inline;
     font-size: 30px;
     margin: 0;
 }
@@ -87,22 +87,22 @@ footer a {
 /* basic style for hero banner */
 .hero {
     background-image: url("../images/hero-bg.jpg");
-    background-size: cover;
     background-position: center;
+    background-size: cover;
     height: 600px;
     position: relative;
 }
 
 /* style for the hero banners form */
 .hero-form {
-    color: #024e76;
     background-color: #fce138;
-    position: absolute;
-    padding: 20px;
-    width: 500px;
     border: #024e76 solid 3px;
     bottom: 120px;
+    color: #024e76;
+    position: absolute;
+    padding: 20px;
     right: 140px;
+    width: 500px;
 }
 
 /* modify the spacing of the h3 element */
@@ -119,12 +119,12 @@ footer a {
 /* allign the input fields and fill them out */
 .form-input {
     border: 1px;
-    display: block;
-    padding: 7px 15px;  
-    font-size: 16px;
     color: #024e76;
-    width: 100%;
+    display: block; 
+    font-size: 16px;
     margin-bottom: 15px;
+    padding: 7px 15px; 
+    width: 100%;
 }
 
 /* spread out the radial buttons for previous trainers option */
@@ -136,8 +136,21 @@ footer a {
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
-    padding: 10px 20px;
     border: none;
     font: 16px bold;
+    padding: 10px 20px;
 }
 /* END OF HERO STYLES */
+
+.intro {
+    text-align: center;
+}
+
+.intro h2 {
+    border-bottom: 3px solid #fce138;
+    color: #024e76;
+    display: inline-block;
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+}
