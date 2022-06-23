@@ -16,13 +16,11 @@ body {
 }
 
 /* START OF HEADER STYLES */
-/* header styles */
 header {
     background-color: #39a6b2;
     padding: 20px 35px;
 }
 
-/* style for Run Buddy in header */
 header h1 {
     color: #fce138;
     display: inline;
@@ -30,24 +28,20 @@ header h1 {
     margin: 0;
 }
 
-/* Color text in header */
 header a {
     color: #fce138;
     text-decoration: none;
 }
 
-/* positioning for links in header list */
 header nav {
     float: right;
     margin: 7px 0;
 }
 
-/* put all links in header in the same line */
 header nav ul li {
     display: inline;
 }
 
-/* styles for the links in header list */
 header nav ul li a {
     font: 22px lighter;
     margin: 0 30px;
@@ -55,14 +49,12 @@ header nav ul li a {
 /* END OF HEADER STYLES
 
 /* START OF FOOTER STYLES */
-/* footer style */
 footer {
     background: #fce138;
     padding: 40px 35px;
     width: 100%;
 }
 
-/* style for made with love in footer */
 footer h2 {
     color: #024e76;
     display: inline;
@@ -70,21 +62,18 @@ footer h2 {
     margin: 0;
 }
 
-/* postioning for privacy and copyright text in footer*/
 footer div {
     float: right;
     line-height: 1.5;
     text-align: right;
 }
 
-/* color of the privacy and copyright text in footer */
 footer a {
     color: #024e76;
 }
 /* END FOOTER STYLES */
 
 /* START HERO STYLES */
-/* basic style for hero banner */
 .hero {
     background-image: url("../images/hero-bg.jpg");
     background-position: center;
@@ -93,7 +82,6 @@ footer a {
     position: relative;
 }
 
-/* style for the hero banners form */
 .hero-form {
     background-color: #fce138;
     border: #024e76 solid 3px;
@@ -105,18 +93,15 @@ footer a {
     width: 500px;
 }
 
-/* modify the spacing of the h3 element */
 .hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
 
-/* modify the spacing around the form itself in the hero banner */
 .hero-form p {
     margin: 5px 0 15px 0;
 }
 
-/* allign the input fields and fill them out */
 .form-input {
     border: 1px;
     color: #024e76;
@@ -127,12 +112,10 @@ footer a {
     width: 100%;
 }
 
-/* spread out the radial buttons for previous trainers option */
 .prev-trainer {
     margin: 0 5px;
 }
 
-/* style for the button */
 .hero-form button {
     color: #fce138;
     background-color: #024e76;
@@ -247,4 +230,14 @@ footer a {
 
 .text-right {
     text-align: right;
+}
+
+.contact {
+    background-color: #024e76;
+    text-align: center;
+}
+
+.contact h2 {
+    color: #fce138;
+    border-color: #39a6b2;
 }
