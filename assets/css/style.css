@@ -123,7 +123,6 @@ footer a {
     font: 16px bold;
     padding: 10px 20px;
 }
-/* END OF HERO STYLES */
 
 /* START OF STEPS SECTIONS STYLES */
 
@@ -233,6 +232,7 @@ footer a {
 }
 
 /* REACH OUT STYLES START */
+
 .contact {
     background-color: #024e76;
     text-align: center;
